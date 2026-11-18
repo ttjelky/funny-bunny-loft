@@ -90,10 +90,10 @@
             <a class="btn btn--ghost" href="#programs">Переглянути сценарії</a>
           </div>
         </div>
-        <div class="hero__visual" aria-hidden="true">
-          <div class="hero__panel">
-            <svg class="hero__bunny" stroke-width=".9"><use href="#bunny"/></svg>
-          </div>
+        <div class="hero__visual">
+          <figure class="photo hero__photo">
+            <img src="assets/photos/hero-bunnies.jpg" width="1440" height="1140" alt="Аніматори Funny Bunny в костюмах рожевого й блакитного кроликів" fetchpriority="high">
+          </figure>
           <a class="hero__note" href="#winter" tabindex="-1">
             <span class="hero__note-label">Сезон 2026/27</span>
             <span class="hero__note-text">Новорічні програми з Сантою — бронювання відкрито</span>
@@ -123,6 +123,12 @@
           <p class="section__text">Кожне свято — пригода з сюжетом, костюмами й реквізитом. Найпопулярніші сценарії нижче, решту підберемо під вік і захоплення дитини.</p>
         </div>
 
+        <div class="programs-layout">
+        <figure class="photo programs__photo">
+          <img src="assets/photos/animators.jpg" width="640" height="1136" loading="lazy" alt="Аніматори Funny Bunny в костюмах казкових героїв у лофті">
+          <figcaption>Аніматори Funny Bunny у лофті на Сінній</figcaption>
+        </figure>
+        <div>
         <div class="tabs" role="group" aria-label="Вік" data-filter>
           <button type="button" class="is-active" data-age="all" aria-pressed="true">Усі</button>
           <button type="button" data-age="kids" aria-pressed="false">3–6 років</button>
@@ -144,6 +150,34 @@
           <li data-age="school teen"><a href="#booking" data-pick="Піжамна вечірка"><span class="programs__n">11</span><span class="programs__name">Піжамна вечірка</span><span class="programs__desc">Подушкові бої, кіно й какао</span><svg class="i"><use href="#arrow"/></svg></a></li>
           <li data-age="teen"><a href="#booking" data-pick="Мафія"><span class="programs__n">12</span><span class="programs__name">Мафія</span><span class="programs__desc">Легендарна гра з ведучим</span><svg class="i"><use href="#arrow"/></svg></a></li>
         </ul>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Пакет -->
+    <section class="section section--tight" id="package">
+      <div class="wrap">
+        <article class="package">
+          <figure class="photo package__photo">
+            <img src="assets/photos/package-standard.jpg" width="700" height="1102" loading="lazy" alt="Двоє аніматорів Funny Bunny у яскравих костюмах">
+          </figure>
+          <div class="package__body">
+            <p class="eyebrow">Пакет для дня народження</p>
+            <h2>Стандарт</h2>
+            <p class="package__price">5 500 <span>₴</span></p>
+            <ul class="package__list">
+              <li>2 аніматори на 1 годину</li>
+              <li>Генератор мильних бульбашок</li>
+              <li>Декорування святкового столу</li>
+              <li>Загальний час свята — 2 години 30 хвилин</li>
+            </ul>
+            <div class="actions">
+              <a class="btn btn--primary" href="#booking" data-pick="Пакет «Стандарт»">Обрати пакет</a>
+              <a class="btn btn--ghost" href="#booking">Інші пакети — за запитом</a>
+            </div>
+          </div>
+        </article>
       </div>
     </section>
 
@@ -156,6 +190,12 @@
             <h2>Зимова <em>казка</em></h2>
           </div>
           <p class="section__text">Новорічні пригоди ельфів, «Як Грінч викрав оленят» і «Шоколадна фабрика Санти» — у лофті або з виїздом до вас. Кількість дат обмежена.</p>
+        </div>
+
+        <div class="gallery">
+          <figure class="photo"><img src="assets/photos/elsa-olaf.jpg" width="640" height="1136" loading="lazy" alt="Ельза та Олаф на святі у Funny Bunny"><figcaption>Ельза та Олаф</figcaption></figure>
+          <figure class="photo"><img src="assets/photos/santa.jpg" width="360" height="640" loading="lazy" alt="Святий Миколай з дитиною біля ялинки"><figcaption>Зустріч зі Святим Миколаєм</figcaption></figure>
+          <figure class="photo"><img src="assets/photos/snow-show.jpg" width="360" height="640" loading="lazy" alt="Сніжне шоу з аніматорами"><figcaption>Сніжне шоу</figcaption></figure>
         </div>
 
         <div class="pricing">
@@ -231,7 +271,12 @@
           </div>
           <p class="section__text">Додайте шоу до будь-якого сценарію — і дорослі знімають це на відео не менше, ніж діти.</p>
         </div>
-        <ul class="features features--3">
+        <div class="shows">
+        <figure class="photo shows__photo">
+          <img src="assets/photos/neon-show.jpg" width="640" height="1136" loading="lazy" alt="Аніматор у костюмі Капелюшника на неоновому шоу">
+          <figcaption>Неонове шоу у Funny Bunny</figcaption>
+        </figure>
+        <ul class="features features--2">
           <li><h3>Crazy Show</h3><p>Яскрава інтерактивна програма з ефектами, де головні учасники — гості.</p></li>
           <li><h3>Кібер-шоу</h3><p>Неон, гаджети й челенджі — формат, який люблять підлітки.</p></li>
           <li><h3>Бульбашкове шоу</h3><p>Гігантські мильні бульбашки й дитина всередині бульбашки.</p></li>
@@ -239,6 +284,7 @@
           <li><h3>Кулінарне шоу</h3><p>Маленькі кухарі готують власні смаколики разом із ведучим.</p></li>
           <li><h3>Інтерактивні вистави</h3><p>Казки, у яких діти стають частиною сюжету.</p></li>
         </ul>
+        </div>
       </div>
     </section>
 
@@ -249,7 +295,10 @@
           <p class="eyebrow">Простір</p>
           <h2>Сімейний лофт <em>на Сінній</em></h2>
           <p class="section__text">Свято для дітей і відпочинок для дорослих — в одному місці. Без потреби шукати кафе, декоратора й аніматора окремо.</p>
-          <svg class="loft__bunny" stroke-width=".9" aria-hidden="true"><use href="#bunny"/></svg>
+          <figure class="photo loft__photo">
+            <img src="assets/photos/loft-hall.jpg" width="640" height="1136" loading="lazy" alt="Зала лофту Funny Bunny з арковим дзеркалом і святковим столом">
+            <figcaption>Зала з арковим дзеркалом</figcaption>
+          </figure>
         </div>
         <ul class="loft__list">
           <li><span>01</span><div><h3>Банкетні зали</h3><p>Столи для дітей і окремий простір для дорослих гостей.</p></div></li>
@@ -339,6 +388,7 @@
             <label for="f-program">Сценарій</label>
             <select id="f-program" name="program" data-program-select>
               <option value="">Допоможіть обрати</option>
+              <option>Пакет «Стандарт»</option>
               <option>Новорічна програма</option>
               <option>Стіч</option><option>Феї</option><option>Маріо</option><option>Мауі</option>
               <option>Майнкрафт</option><option>Зоотрополіс</option><option>Ельза та Олаф</option><option>Мінімаус</option>
