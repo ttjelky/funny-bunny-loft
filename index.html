@@ -3,16 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Funny Bunny — дитячий лофт у Миколаєві · Свято кожен день</title>
-  <meta name="description" content="Funny Bunny — сімейний лофт у Миколаєві (Сінна, 23). Аніматори та 30+ сценаріїв свят, шоу-програми, банкетні зали, ігрова PS5, караоке, літній майданчик. Новорічні програми з Сантою.">
+  <title>Funny Bunny — дитячий лофт у Миколаєві</title>
+  <meta name="description" content="Funny Bunny — сімейний лофт у Миколаєві на Сінній, 23. Дитячі свята з аніматорами, понад 30 сценаріїв, шоу-програми, банкетні зали, ігрова PS5, караоке й літній майданчик.">
   <meta property="og:title" content="Funny Bunny — дитячий лофт у Миколаєві">
-  <meta property="og:description" content="30+ сценаріїв, аніматори, шоу, PS5, караоке й літній майданчик. Бронюйте казку!">
+  <meta property="og:description" content="Понад 30 сценаріїв, аніматори, шоу-програми й затишний лофт для всієї родини.">
   <meta property="og:type" content="website">
-  <meta name="theme-color" content="#dfe7f3">
+  <meta name="theme-color" content="#faf8f5">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;600;700;800&family=Unbounded:wght@500;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Onest:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <script type="application/ld+json">
   {
@@ -21,18 +21,17 @@
     "name": "Funny Bunny — дитячий лофт",
     "telephone": "+380635707657",
     "address": { "@type": "PostalAddress", "addressLocality": "Миколаїв", "streetAddress": "вул. Сінна, 23", "addressCountry": "UA" },
-    "sameAs": ["https://www.instagram.com/funnybunny_niko/", "https://www.instagram.com/prazdnik_kajdiy_den/"],
-    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.4", "reviewCount": "18" }
+    "sameAs": ["https://www.instagram.com/funnybunny_niko/", "https://www.instagram.com/prazdnik_kajdiy_den/"]
   }
   </script>
 </head>
 <body>
   <a class="skip" href="#main">До змісту</a>
 
-  <!-- Спільні SVG: лого-кролик (лінійний, як у фірмовому знаку) -->
   <svg width="0" height="0" style="position:absolute" aria-hidden="true">
-    <symbol id="bunny-line" viewBox="0 0 48 56">
-      <g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round">
+    <!-- Лінійний кролик — за мотивами фірмового знака -->
+    <symbol id="bunny" viewBox="0 0 48 56">
+      <g fill="none" stroke="currentColor" stroke-linejoin="round" stroke-linecap="round">
         <path d="M17 24 12 4l9 16"/>
         <path d="M31 24 36 4l-9 16"/>
         <path d="M17 24 9 34l6 12 9 6 9-6 6-12-8-10-7 5z"/>
@@ -40,377 +39,332 @@
         <path d="M15 33l3-1m15 1-3-1"/>
       </g>
     </symbol>
-    <symbol id="wave" viewBox="0 0 1440 40" preserveAspectRatio="none">
-      <path d="M0 40V20C120 0 240 0 360 20s240 20 360 0 240-20 360 0 240 20 360 0v20z"/>
-    </symbol>
+    <symbol id="arrow" viewBox="0 0 24 24"><path d="M5 12h14m-5-5 5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
   </svg>
 
-  <!-- Шапка -->
   <header class="header" data-header>
-    <a class="logo" href="#top" aria-label="Funny Bunny — на початок">
-      <svg class="logo__mark"><use href="#bunny-line"/></svg>
-      <span class="logo__text"><b>FUNNY BUNNY</b><small>дитячий лофт</small></span>
-    </a>
-    <nav class="nav" aria-label="Розділи">
-      <a href="#winter">Новий рік</a>
-      <a href="#programs">Сценарії</a>
-      <a href="#shows">Шоу</a>
-      <a href="#loft">Лофт</a>
-      <a href="#contacts">Контакти</a>
-    </nav>
-    <div class="header__end">
-      <a class="header__phone" href="tel:+380635707657">063 570 76 57</a>
-      <a class="btn btn--blue header__cta" href="#booking">Забронювати</a>
-      <button class="burger" type="button" aria-label="Меню" aria-expanded="false" data-burger><span></span><span></span><span></span></button>
+    <div class="wrap header__inner">
+      <a class="logo" href="#top" aria-label="Funny Bunny — на початок">
+        <svg class="logo__mark" stroke-width="2.4"><use href="#bunny"/></svg>
+        <span class="logo__name">Funny Bunny</span>
+      </a>
+      <nav class="nav" aria-label="Розділи">
+        <a href="#programs">Сценарії</a>
+        <a href="#winter">Новий рік</a>
+        <a href="#loft">Лофт</a>
+        <a href="#contacts">Контакти</a>
+      </nav>
+      <div class="header__end">
+        <a class="header__phone" href="tel:+380635707657">063 570 76 57</a>
+        <a class="btn btn--primary btn--sm" href="#booking">Забронювати</a>
+        <button class="burger" type="button" aria-label="Меню" aria-expanded="false" data-burger><span></span><span></span></button>
+      </div>
     </div>
   </header>
 
   <div class="drawer" data-drawer hidden>
     <nav aria-label="Меню">
-      <a href="#winter">Новий рік 🎄</a>
       <a href="#programs">Сценарії</a>
+      <a href="#winter">Новий рік</a>
       <a href="#shows">Шоу</a>
       <a href="#loft">Лофт</a>
       <a href="#booking">Бронювання</a>
       <a href="#contacts">Контакти</a>
     </nav>
-    <a class="btn btn--blue btn--lg" href="tel:+380635707657">Подзвонити</a>
+    <div class="drawer__foot">
+      <a class="btn btn--primary btn--block" href="tel:+380635707657">Подзвонити</a>
+      <p>Миколаїв, вул. Сінна, 23</p>
+    </div>
   </div>
 
   <main id="main">
-    <!-- HERO -->
+    <!-- Hero -->
     <section class="hero" id="top">
-      <div class="clouds" aria-hidden="true">
-        <span class="cloud cloud--1"></span><span class="cloud cloud--2"></span><span class="cloud cloud--3"></span><span class="cloud cloud--4"></span>
-      </div>
       <div class="wrap hero__grid">
         <div class="hero__copy">
-          <p class="kicker"><span class="dot"></span> Сімейний лофт · Миколаїв, Сінна 23</p>
-          <h1 class="hero__title">
-            <span>Свято</span>
-            <span class="hero__pink">кожен</span>
-            <span>день</span>
-          </h1>
-          <p class="hero__lead">Втілюємо дитячі мрії в реальність: аніматори, <b>30+ сценаріїв</b>, шоу-програми, ігрова PS5 і караоке — у нашому затишному лофті.</p>
-          <div class="hero__actions">
-            <a class="btn btn--blue btn--lg" href="#booking">Забронювати казку</a>
-            <a class="btn btn--white btn--lg" href="#programs">Обрати сценарій</a>
+          <p class="eyebrow">Дитячий лофт · Миколаїв</p>
+          <h1>Свято <em>кожен</em> день</h1>
+          <p class="lead">Дні народження з аніматорами, понад 30 сценаріїв і шоу-програми — у затишному сімейному лофті на Сінній. Ви запрошуєте гостей, ми робимо решту.</p>
+          <div class="actions">
+            <a class="btn btn--primary" href="#booking">Забронювати дату</a>
+            <a class="btn btn--ghost" href="#programs">Переглянути сценарії</a>
           </div>
         </div>
-
-        <div class="hero__art" aria-hidden="true">
-          <div class="portal">
-            <!-- рожевий і синій кролики — як аніматори-талісмани -->
-            <svg class="bunnies" viewBox="0 0 420 420">
-              <g class="bunny bunny--pink">
-                <ellipse cx="118" cy="120" rx="22" ry="70" fill="#ff5fae" transform="rotate(-14 118 120)"/>
-                <ellipse cx="118" cy="125" rx="10" ry="50" fill="#ffd0e7" transform="rotate(-14 118 125)"/>
-                <ellipse cx="178" cy="112" rx="22" ry="70" fill="#ff5fae" transform="rotate(10 178 112)"/>
-                <ellipse cx="178" cy="117" rx="10" ry="50" fill="#ffd0e7" transform="rotate(10 178 117)"/>
-                <circle cx="150" cy="230" r="78" fill="#ff7fbf"/>
-                <circle cx="124" cy="222" r="10" fill="#1d2f8c"/><circle cx="127" cy="219" r="3.5" fill="#fff"/>
-                <circle cx="176" cy="222" r="10" fill="#1d2f8c"/><circle cx="179" cy="219" r="3.5" fill="#fff"/>
-                <ellipse cx="108" cy="250" rx="13" ry="8" fill="#ff4f9e" opacity=".6"/><ellipse cx="192" cy="250" rx="13" ry="8" fill="#ff4f9e" opacity=".6"/>
-                <path d="M136 252q14 16 28 0" stroke="#1d2f8c" stroke-width="5" fill="none" stroke-linecap="round"/>
-                <path d="M150 300l-30 22 30 10 30-10z" fill="#fff"/><circle cx="150" cy="312" r="7" fill="#ff4f9e"/>
-              </g>
-              <g class="bunny bunny--blue">
-                <ellipse cx="262" cy="110" rx="22" ry="72" fill="#3d7bff" transform="rotate(-20 262 110)"/>
-                <ellipse cx="262" cy="115" rx="10" ry="52" fill="#ffc6df" transform="rotate(-20 262 115)"/>
-                <ellipse cx="326" cy="120" rx="22" ry="72" fill="#3d7bff" transform="rotate(16 326 120)"/>
-                <ellipse cx="326" cy="125" rx="10" ry="52" fill="#ffc6df" transform="rotate(16 326 125)"/>
-                <circle cx="292" cy="236" r="80" fill="#5b93ff"/>
-                <path d="M258 226q8-10 16 0M310 226q8-10 16 0" stroke="#14216b" stroke-width="5" fill="none" stroke-linecap="round"/>
-                <ellipse cx="248" cy="254" rx="13" ry="8" fill="#ff7fbf" opacity=".55"/><ellipse cx="336" cy="254" rx="13" ry="8" fill="#ff7fbf" opacity=".55"/>
-                <path d="M270 252q22 30 44 0z" fill="#14216b"/><path d="M280 262q12 8 24 0" fill="#ff7fbf"/>
-                <rect x="284" y="250" width="16" height="9" rx="2" fill="#fff"/>
-              </g>
-            </svg>
+        <div class="hero__visual" aria-hidden="true">
+          <div class="hero__panel">
+            <svg class="hero__bunny" stroke-width=".9"><use href="#bunny"/></svg>
           </div>
-          <span class="badge badge--a"><b>30+</b> сценаріїв</span>
-          <span class="badge badge--b"><b>8 200+</b> друзів в Instagram</span>
-          <span class="badge badge--c"><b>4,4 ★</b> у Google</span>
-          <span class="spark spark--1">✦</span><span class="spark spark--2">✦</span><span class="spark spark--3">✦</span>
+          <a class="hero__note" href="#winter" tabindex="-1">
+            <span class="hero__note-label">Сезон 2026/27</span>
+            <span class="hero__note-text">Новорічні програми з Сантою — бронювання відкрито</span>
+            <svg class="i"><use href="#arrow"/></svg>
+          </a>
         </div>
       </div>
-    </section>
 
-    <!-- Бігучий рядок -->
-    <div class="ribbon" aria-hidden="true">
-      <svg class="wave wave--top"><use href="#wave"/></svg>
-      <div class="ribbon__track">
-        <span>Стіч</span><i>🐰</i><span>Феї</span><i>⭐</i><span>Маріо</span><i>🎈</i><span>Мауі</span><i>🐰</i><span>Майнкрафт</span><i>⭐</i><span>Зоотрополіс</span><i>🎈</i><span>Стімпанк</span><i>🐰</i><span>Ельза й Олаф</span><i>⭐</i><span>Кібер-шоу</span><i>🎈</i>
-        <span>Стіч</span><i>🐰</i><span>Феї</span><i>⭐</i><span>Маріо</span><i>🎈</i><span>Мауі</span><i>🐰</i><span>Майнкрафт</span><i>⭐</i><span>Зоотрополіс</span><i>🎈</i><span>Стімпанк</span><i>🐰</i><span>Ельза й Олаф</span><i>⭐</i><span>Кібер-шоу</span><i>🎈</i>
-      </div>
-      <svg class="wave wave--bottom"><use href="#wave"/></svg>
-    </div>
-
-    <!-- НОВИЙ РІК -->
-    <section class="winter" id="winter">
-      <div class="snow" aria-hidden="true"></div>
       <div class="wrap">
-        <div class="head head--light reveal">
-          <p class="kicker kicker--light">❄️ Зимова казка · кількість дат обмежена</p>
-          <h2>Новорічний прайс</h2>
-          <p class="sub">Санта, ельфи й новорічні пригоди — у лофті або у вас вдома. Бронюйте зараз, поки є вільні дати.</p>
-        </div>
-
-        <div class="winter__programs reveal">
-          <span class="chip chip--ice">🧝 Новорічні пригоди ельфів</span>
-          <span class="chip chip--ice">🦌 Як Грінч викрав оленят</span>
-          <span class="chip chip--ice">🍫 Шоколадна фабрика Санти</span>
-          <span class="chip chip--ice">✨ Нова програма — у розробці</span>
-        </div>
-
-        <div class="prices">
-          <article class="price reveal">
-            <p class="price__name">Свято з аніматорами</p>
-            <ul class="rows">
-              <li><span>40 хв · 2 аніматори</span><b>4 000 ₴</b></li>
-              <li><span>1 година · 2 аніматори</span><b>5 000 ₴</b></li>
-              <li><span>1 година · 2 аніматори + паперове шоу</span><b>7 000 ₴</b></li>
-              <li class="rows__hit"><span>1 година · 2 аніматори + шоу + Санта</span><b>9 000 ₴</b></li>
-            </ul>
-            <p class="price__note">Санта до пакетів 40 хв і 1 год — +1 500 ₴. Шоу на вибір: паперове, кулінарне, бульбашкове та інші.</p>
-          </article>
-
-          <article class="price reveal">
-            <p class="price__name">Вистави</p>
-            <ul class="rows">
-              <li><span>Інтерактивна вистава</span><b>9 000 ₴</b></li>
-              <li><span>Інтерактивна вистава + шоу</span><b>11 000 ₴</b></li>
-            </ul>
-            <p class="price__name price__name--sm">Для підлітків</p>
-            <div class="chips-row">
-              <span class="chip chip--pink">🎮 Новорічне кібер-шоу</span>
-              <span class="chip chip--pink">🕶️ Модний Санта</span>
-            </div>
-            <p class="price__note">Проїзд аніматорів оплачується додатково.</p>
-          </article>
-
-          <article class="price price--nye reveal">
-            <div class="nye__head">
-              <p class="price__name">31 грудня · Санта та Ельф</p>
-              <div class="seg" role="tablist" aria-label="Формат привітання" data-seg>
-                <button type="button" role="tab" aria-selected="true" data-plan="express">Експрес · 15 хв</button>
-                <button type="button" role="tab" aria-selected="false" data-plan="lux">Люкс · 30 хв</button>
-              </div>
-            </div>
-            <ul class="rows rows--slots" data-slots>
-              <li><span>09:00–10:30</span><b data-express="2 500" data-lux="3 100">2 500 ₴</b></li>
-              <li><span>11:00–14:30</span><b data-express="3 000" data-lux="3 500">3 000 ₴</b></li>
-              <li><span>15:00–16:30</span><b data-express="3 500" data-lux="4 000">3 500 ₴</b></li>
-              <li><span>17:00–18:30</span><b data-express="4 000" data-lux="5 000">4 000 ₴</b></li>
-              <li><span>19:00–22:30</span><b data-express="4 500" data-lux="5 500">4 500 ₴</b></li>
-            </ul>
-            <a class="btn btn--pink btn--block" href="#booking" data-pick="Санта та Ельф 31 грудня">Забронювати 31 грудня</a>
-          </article>
-        </div>
+        <dl class="facts">
+          <div><dt>30+</dt><dd>сценаріїв свят</dd></div>
+          <div><dt>2</dt><dd>банкетні зали та дзеркальна зала</dd></div>
+          <div><dt>8 200+</dt><dd>родин стежать за нами в Instagram</dd></div>
+          <div><dt>Літо</dt><dd>свята на власному відкритому майданчику</dd></div>
+        </dl>
       </div>
-      <svg class="wave wave--end"><use href="#wave"/></svg>
     </section>
 
-    <!-- СЦЕНАРІЇ -->
+    <!-- Сценарії -->
     <section class="section" id="programs">
       <div class="wrap">
-        <div class="head reveal">
-          <p class="kicker"><span class="dot"></span> Сценарії 30+</p>
-          <h2>Улюблені герої оживають</h2>
-          <p class="sub">Кожне свято — пригода з сюжетом, костюмами й реквізитом. Ось кілька хітів — решту підберемо під вік і мрію дитини.</p>
+        <div class="section__head">
+          <div>
+            <p class="eyebrow">Сценарії</p>
+            <h2>Улюблені герої <em>оживають</em></h2>
+          </div>
+          <p class="section__text">Кожне свято — пригода з сюжетом, костюмами й реквізитом. Найпопулярніші сценарії нижче, решту підберемо під вік і захоплення дитини.</p>
         </div>
 
-        <div class="filter reveal" role="group" aria-label="Для кого" data-filter>
-          <button class="filter__btn is-active" type="button" data-age="all" aria-pressed="true">Усі</button>
-          <button class="filter__btn" type="button" data-age="kids" aria-pressed="false">Малюкам</button>
-          <button class="filter__btn" type="button" data-age="school" aria-pressed="false">Школярам</button>
-          <button class="filter__btn" type="button" data-age="teen" aria-pressed="false">Підліткам</button>
+        <div class="tabs" role="group" aria-label="Вік" data-filter>
+          <button type="button" class="is-active" data-age="all" aria-pressed="true">Усі</button>
+          <button type="button" data-age="kids" aria-pressed="false">3–6 років</button>
+          <button type="button" data-age="school" aria-pressed="false">7–10 років</button>
+          <button type="button" data-age="teen" aria-pressed="false">11+ років</button>
         </div>
 
-        <ul class="cards" data-cards>
-          <li class="card reveal" data-age="kids school" style="--c:#5b93ff;--t:#e6efff"><span class="card__emoji">👽</span><h3>Стіч</h3><p>Блакитний бешкетник і його гавайська вечірка.</p><a href="#booking" data-pick="Стіч">Обрати</a></li>
-          <li class="card reveal" data-age="kids" style="--c:#ff5fae;--t:#ffe6f2"><span class="card__emoji">🧚</span><h3>Феї</h3><p>Чарівний пилок, крила й пошук загубленого дива.</p><a href="#booking" data-pick="Феї">Обрати</a></li>
-          <li class="card reveal" data-age="kids school" style="--c:#ff6b4a;--t:#ffe9e2"><span class="card__emoji">🍄</span><h3>Маріо</h3><p>Пригода по рівнях: монетки, гриби й фінальний бос.</p><a href="#booking" data-pick="Маріо">Обрати</a></li>
-          <li class="card reveal" data-age="kids school" style="--c:#16b39a;--t:#ddf6f1"><span class="card__emoji">🌊</span><h3>Мауі</h3><p>Острівна подорож, танці й пошук серця океану.</p><a href="#booking" data-pick="Мауі">Обрати</a></li>
-          <li class="card reveal" data-age="school" style="--c:#4f9d3a;--t:#e5f3df"><span class="card__emoji">⛏️</span><h3>Майнкрафт</h3><p>Будуємо, крафтимо й рятуємо світ від кріперів.</p><a href="#booking" data-pick="Майнкрафт">Обрати</a></li>
-          <li class="card reveal" data-age="kids school" style="--c:#f08a24;--t:#fff0dd"><span class="card__emoji">🦊</span><h3>Зоотрополіс</h3><p>Детективна справа для найкмітливіших звіряток.</p><a href="#booking" data-pick="Зоотрополіс">Обрати</a></li>
-          <li class="card reveal" data-age="school teen" style="--c:#a0672d;--t:#f6ebdd"><span class="card__emoji">⚙️</span><h3>Стімпанк</h3><p>Шестерні, винаходи й квест у світі машин.</p><a href="#booking" data-pick="Стімпанк">Обрати</a></li>
-          <li class="card reveal" data-age="school teen" style="--c:#c2213a;--t:#fde4e8"><span class="card__emoji">🔦</span><h3>Дивні дива</h3><p>Містичний квест з іншого виміру — для сміливих.</p><a href="#booking" data-pick="Дивні дива">Обрати</a></li>
-          <li class="card reveal" data-age="kids" style="--c:#ff4f7e;--t:#ffe3ea"><span class="card__emoji">🎀</span><h3>Мінімаус</h3><p>Бантики, танці й найсолодша вечірка для малечі.</p><a href="#booking" data-pick="Мінімаус">Обрати</a></li>
-          <li class="card reveal" data-age="kids" style="--c:#3fa9e8;--t:#e1f2fc"><span class="card__emoji">☃️</span><h3>Ельза та Олаф</h3><p>Магія снігу, веселі ігри й запальні танці.</p><a href="#booking" data-pick="Ельза та Олаф">Обрати</a></li>
-          <li class="card reveal" data-age="school teen" style="--c:#7b5cff;--t:#ece7ff"><span class="card__emoji">🌙</span><h3>Піжамна вечірка</h3><p>Подушкові бої, кіно, какао й секрети до ранку.</p><a href="#booking" data-pick="Піжамна вечірка">Обрати</a></li>
-          <li class="card reveal" data-age="teen" style="--c:#1d2f8c;--t:#e3e8fa"><span class="card__emoji">🕵️</span><h3>Мафія</h3><p>Легендарна гра з ведучим — улюблене у підлітків.</p><a href="#booking" data-pick="Мафія">Обрати</a></li>
+        <ul class="programs" data-cards>
+          <li data-age="kids school"><a href="#booking" data-pick="Стіч"><span class="programs__n">01</span><span class="programs__name">Стіч</span><span class="programs__desc">Гавайська вечірка з блакитним бешкетником</span><svg class="i"><use href="#arrow"/></svg></a></li>
+          <li data-age="kids"><a href="#booking" data-pick="Феї"><span class="programs__n">02</span><span class="programs__name">Феї</span><span class="programs__desc">Чарівний пилок і пошук загубленого дива</span><svg class="i"><use href="#arrow"/></svg></a></li>
+          <li data-age="kids school"><a href="#booking" data-pick="Маріо"><span class="programs__n">03</span><span class="programs__name">Маріо</span><span class="programs__desc">Пригода по рівнях до фінального боса</span><svg class="i"><use href="#arrow"/></svg></a></li>
+          <li data-age="kids school"><a href="#booking" data-pick="Мауі"><span class="programs__n">04</span><span class="programs__name">Мауі</span><span class="programs__desc">Острівна подорож за серцем океану</span><svg class="i"><use href="#arrow"/></svg></a></li>
+          <li data-age="school"><a href="#booking" data-pick="Майнкрафт"><span class="programs__n">05</span><span class="programs__name">Майнкрафт</span><span class="programs__desc">Будуємо, крафтимо й рятуємо світ</span><svg class="i"><use href="#arrow"/></svg></a></li>
+          <li data-age="kids school"><a href="#booking" data-pick="Зоотрополіс"><span class="programs__n">06</span><span class="programs__name">Зоотрополіс</span><span class="programs__desc">Детективна справа для кмітливих</span><svg class="i"><use href="#arrow"/></svg></a></li>
+          <li data-age="kids"><a href="#booking" data-pick="Ельза та Олаф"><span class="programs__n">07</span><span class="programs__name">Ельза та Олаф</span><span class="programs__desc">Магія снігу, ігри й танці</span><svg class="i"><use href="#arrow"/></svg></a></li>
+          <li data-age="kids"><a href="#booking" data-pick="Мінімаус"><span class="programs__n">08</span><span class="programs__name">Мінімаус</span><span class="programs__desc">Найсолодша вечірка для малечі</span><svg class="i"><use href="#arrow"/></svg></a></li>
+          <li data-age="school teen"><a href="#booking" data-pick="Стімпанк"><span class="programs__n">09</span><span class="programs__name">Стімпанк</span><span class="programs__desc">Квест у світі винаходів і механізмів</span><svg class="i"><use href="#arrow"/></svg></a></li>
+          <li data-age="school teen"><a href="#booking" data-pick="Дивні дива"><span class="programs__n">10</span><span class="programs__name">Дивні дива</span><span class="programs__desc">Містичний квест для найсміливіших</span><svg class="i"><use href="#arrow"/></svg></a></li>
+          <li data-age="school teen"><a href="#booking" data-pick="Піжамна вечірка"><span class="programs__n">11</span><span class="programs__name">Піжамна вечірка</span><span class="programs__desc">Подушкові бої, кіно й какао</span><svg class="i"><use href="#arrow"/></svg></a></li>
+          <li data-age="teen"><a href="#booking" data-pick="Мафія"><span class="programs__n">12</span><span class="programs__name">Мафія</span><span class="programs__desc">Легендарна гра з ведучим</span><svg class="i"><use href="#arrow"/></svg></a></li>
         </ul>
       </div>
     </section>
 
-    <!-- ШОУ -->
-    <section class="shows" id="shows">
+    <!-- Новий рік -->
+    <section class="section section--tint" id="winter">
       <div class="wrap">
-        <div class="head reveal">
-          <p class="kicker"><span class="dot"></span> Шоу-програми</p>
-          <h2>Вау-момент свята</h2>
-          <p class="sub">Додайте до сценарію шоу — і гості говоритимуть про це весь рік.</p>
+        <div class="section__head">
+          <div>
+            <p class="eyebrow">Новий рік 2026/27</p>
+            <h2>Зимова <em>казка</em></h2>
+          </div>
+          <p class="section__text">Новорічні пригоди ельфів, «Як Грінч викрав оленят» і «Шоколадна фабрика Санти» — у лофті або з виїздом до вас. Кількість дат обмежена.</p>
         </div>
-        <ul class="shows__list">
-          <li class="show reveal" style="--c:#ffd84d"><span>🔥</span><div><h3>CRAZY SHOW</h3><p>Божевільно весела програма з ефектами й інтерактивом.</p></div></li>
-          <li class="show reveal" style="--c:#8fd3ff"><span>🎮</span><div><h3>Кібер-шоу</h3><p>Неон, гаджети й челенджі для підлітків.</p></div></li>
-          <li class="show reveal" style="--c:#ffb3d6"><span>🫧</span><div><h3>Бульбашкове шоу</h3><p>Гігантські бульбашки й дитина всередині бульбашки.</p></div></li>
-          <li class="show reveal" style="--c:#c6f0a8"><span>📜</span><div><h3>Паперове шоу</h3><p>Хуртовина паперу, конфеті й танці під гарну музику.</p></div></li>
-          <li class="show reveal" style="--c:#ffcf9e"><span>🧁</span><div><h3>Кулінарне шоу</h3><p>Маленькі кухарі готують власні смаколики.</p></div></li>
-          <li class="show reveal" style="--c:#d9ccff"><span>🎭</span><div><h3>Вистави</h3><p>Інтерактивні казки, де діти — частина сюжету.</p></div></li>
+
+        <div class="pricing">
+          <div class="pricing__tabs" role="tablist" aria-label="Прайс" data-ptabs>
+            <button type="button" role="tab" aria-selected="true" data-tab="party">Програми</button>
+            <button type="button" role="tab" aria-selected="false" data-tab="nye">31 грудня</button>
+          </div>
+
+          <div class="pricing__panel" data-panel="party">
+            <div class="table">
+              <h3>Свято з аніматорами</h3>
+              <ul>
+                <li><span>40 хвилин · 2 аніматори</span><b>4 000 ₴</b></li>
+                <li><span>1 година · 2 аніматори</span><b>5 000 ₴</b></li>
+                <li><span>1 година · 2 аніматори + шоу</span><b>7 000 ₴</b></li>
+                <li><span>1 година · 2 аніматори + шоу + Санта</span><b>9 000 ₴</b></li>
+              </ul>
+              <p class="table__note">Санта до перших двох форматів — +1 500 ₴. Шоу на вибір: паперове, кулінарне, бульбашкове.</p>
+            </div>
+            <div class="table">
+              <h3>Інтерактивні вистави</h3>
+              <ul>
+                <li><span>Вистава</span><b>9 000 ₴</b></li>
+                <li><span>Вистава + шоу</span><b>11 000 ₴</b></li>
+              </ul>
+              <h3 class="table__sub">Для підлітків</h3>
+              <ul>
+                <li><span>Новорічне кібер-шоу</span><b>за запитом</b></li>
+                <li><span>Модний Санта</span><b>за запитом</b></li>
+              </ul>
+              <p class="table__note">Виїзд аніматорів оплачується окремо.</p>
+            </div>
+          </div>
+
+          <div class="pricing__panel" data-panel="nye" hidden>
+            <div class="table">
+              <h3>Санта та Ельф · Експрес <small>15 хвилин</small></h3>
+              <ul>
+                <li><span>09:00–10:30</span><b>2 500 ₴</b></li>
+                <li><span>11:00–14:30</span><b>3 000 ₴</b></li>
+                <li><span>15:00–16:30</span><b>3 500 ₴</b></li>
+                <li><span>17:00–18:30</span><b>4 000 ₴</b></li>
+                <li><span>19:00–22:30</span><b>4 500 ₴</b></li>
+              </ul>
+            </div>
+            <div class="table">
+              <h3>Санта та Ельф · Люкс <small>30 хвилин</small></h3>
+              <ul>
+                <li><span>09:00–10:30</span><b>3 100 ₴</b></li>
+                <li><span>11:00–14:30</span><b>3 500 ₴</b></li>
+                <li><span>15:00–16:30</span><b>4 000 ₴</b></li>
+                <li><span>17:00–18:30</span><b>5 000 ₴</b></li>
+                <li><span>19:00–22:30</span><b>5 500 ₴</b></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="pricing__foot">
+            <p>Ціни новорічного сезону. Актуальний прайс на дні народження — надішлемо у відповідь на заявку.</p>
+            <a class="btn btn--primary" href="#booking" data-pick="Новорічна програма">Забронювати новорічну дату</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Шоу -->
+    <section class="section" id="shows">
+      <div class="wrap">
+        <div class="section__head">
+          <div>
+            <p class="eyebrow">Шоу-програми</p>
+            <h2>Головний момент <em>свята</em></h2>
+          </div>
+          <p class="section__text">Додайте шоу до будь-якого сценарію — і дорослі знімають це на відео не менше, ніж діти.</p>
+        </div>
+        <ul class="features features--3">
+          <li><h3>Crazy Show</h3><p>Яскрава інтерактивна програма з ефектами, де головні учасники — гості.</p></li>
+          <li><h3>Кібер-шоу</h3><p>Неон, гаджети й челенджі — формат, який люблять підлітки.</p></li>
+          <li><h3>Бульбашкове шоу</h3><p>Гігантські мильні бульбашки й дитина всередині бульбашки.</p></li>
+          <li><h3>Паперове шоу</h3><p>Паперова хуртовина, конфеті й танці під улюблену музику.</p></li>
+          <li><h3>Кулінарне шоу</h3><p>Маленькі кухарі готують власні смаколики разом із ведучим.</p></li>
+          <li><h3>Інтерактивні вистави</h3><p>Казки, у яких діти стають частиною сюжету.</p></li>
         </ul>
       </div>
     </section>
 
-    <!-- ЛОФТ -->
-    <section class="section loft" id="loft">
-      <div class="wrap">
-        <div class="head reveal">
-          <p class="kicker"><span class="dot"></span> Наш простір</p>
-          <h2>Сімейний лофт на Сінній</h2>
-          <p class="sub">Найатмосферніші свята — у нашому лофті. Діти граються, батьки відпочивають поруч.</p>
+    <!-- Лофт -->
+    <section class="section section--pink" id="loft">
+      <div class="wrap loft">
+        <div class="loft__intro">
+          <p class="eyebrow">Простір</p>
+          <h2>Сімейний лофт <em>на Сінній</em></h2>
+          <p class="section__text">Свято для дітей і відпочинок для дорослих — в одному місці. Без потреби шукати кафе, декоратора й аніматора окремо.</p>
+          <svg class="loft__bunny" stroke-width=".9" aria-hidden="true"><use href="#bunny"/></svg>
         </div>
-        <div class="bento">
-          <article class="room room--big reveal" style="--c:#ffd0e7">
-            <span class="room__icon">🥂</span>
-            <h3>Банкетні зали</h3>
-            <p>Затишні зали для дитячого столу й окремо для дорослих — свято на всю родину.</p>
-          </article>
-          <article class="room reveal" style="--c:#dbe6ff">
-            <span class="room__icon">🪞</span>
-            <h3>Дзеркальна зала</h3>
-            <p>Для свят, майстер-класів, презентацій і камерних подій — можна орендувати.</p>
-          </article>
-          <article class="room reveal" style="--c:#e2dcff">
-            <span class="room__icon">🎮</span>
-            <h3>Ігрова PS5</h3>
-            <p>Улюблені ігри на великому екрані — хіт серед школярів.</p>
-          </article>
-          <article class="room reveal" style="--c:#ffe9b8">
-            <span class="room__icon">🎤</span>
-            <h3>Караоке</h3>
-            <p>Співаємо всі разом — від мультиків до хітів.</p>
-          </article>
-          <article class="room reveal" style="--c:#d4f3e3">
-            <span class="room__icon">🏝️</span>
-            <h3>Літній майданчик</h3>
-            <p>Свято надворі в теплий сезон: ігри, бульбашки й сонце.</p>
-          </article>
-        </div>
+        <ul class="loft__list">
+          <li><span>01</span><div><h3>Банкетні зали</h3><p>Столи для дітей і окремий простір для дорослих гостей.</p></div></li>
+          <li><span>02</span><div><h3>Дзеркальна зала</h3><p>Для свят, майстер-класів і камерних подій. Доступна для оренди.</p></div></li>
+          <li><span>03</span><div><h3>Ігрова PS5</h3><p>Великий екран і улюблені ігри — особливо для школярів.</p></div></li>
+          <li><span>04</span><div><h3>Караоке</h3><p>Від пісень з мультиків до хітів, які знають усі.</p></div></li>
+          <li><span>05</span><div><h3>Літній майданчик</h3><p>Свята на свіжому повітрі в теплий сезон.</p></div></li>
+        </ul>
       </div>
     </section>
 
-    <!-- БЛАГОДІЙНА ВИСТАВА -->
-    <section class="wrap">
-      <article class="event reveal">
-        <div class="event__date"><b>5</b><span>грудня</span><small>16:00</small></div>
-        <div class="event__body">
-          <p class="kicker"><span class="dot dot--pink"></span> Благодійна вистава</p>
-          <h2>«Операція Перевиховання»</h2>
-          <p>Різдвяна пригода з Тимком, Дрьомом і Святим Миколаєм. Особлива місія — подарувати свято дітям військових та внутрішньо переміщених осіб. 🫶</p>
-        </div>
-        <a class="btn btn--blue" href="https://www.instagram.com/funnybunny_niko/" target="_blank" rel="noopener">Деталі в Instagram</a>
-      </article>
+    <!-- Подія -->
+    <section class="section section--tight">
+      <div class="wrap">
+        <article class="event">
+          <div class="event__date"><span>5</span><small>грудня, 16:00</small></div>
+          <div class="event__body">
+            <p class="eyebrow">Благодійна вистава</p>
+            <h3>«Операція Перевиховання»</h3>
+            <p>Різдвяна пригода з Тимком, Дрьомом і Святим Миколаєм — для дітей військових та внутрішньо переміщених осіб.</p>
+          </div>
+          <a class="link" href="https://www.instagram.com/funnybunny_niko/" target="_blank" rel="noopener">Деталі в Instagram <svg class="i"><use href="#arrow"/></svg></a>
+        </article>
+      </div>
     </section>
 
-    <!-- ЯК ЗАБРОНЮВАТИ -->
-    <section class="section">
+    <!-- Як це працює -->
+    <section class="section section--tight">
       <div class="wrap">
-        <div class="head reveal">
-          <p class="kicker"><span class="dot"></span> Просто як 1-2-3</p>
-          <h2>Як забронювати казку</h2>
-        </div>
         <ol class="steps">
-          <li class="reveal"><span>1</span><h3>Напишіть нам</h3><p>Заявка на сайті, дзвінок, Viber чи Direct — як зручно.</p></li>
-          <li class="reveal"><span>2</span><h3>Оберемо разом</h3><p>Підберемо сценарій, шоу й залу під вік і кількість гостей.</p></li>
-          <li class="reveal"><span>3</span><h3>Святкуйте!</h3><p>Ви приходите з гостями — магію, аніматорів і веселощі беремо на себе.</p></li>
+          <li><span>Крок 1</span><h3>Заявка</h3><p>Оберіть дату на сайті, подзвоніть або напишіть у Viber чи Instagram.</p></li>
+          <li><span>Крок 2</span><h3>Підбір програми</h3><p>Порадимо сценарій, шоу й залу під вік і кількість гостей.</p></li>
+          <li><span>Крок 3</span><h3>Свято</h3><p>Приходите з гостями — організацію й аніматорів беремо на себе.</p></li>
         </ol>
       </div>
     </section>
 
-    <!-- БРОНЮВАННЯ -->
-    <section class="booking" id="booking">
-      <svg class="wave wave--top wave--blue"><use href="#wave"/></svg>
-      <div class="wrap booking__grid">
-        <div class="booking__intro reveal">
-          <h2>Бронюйте свою казку 🐰</h2>
-          <p>Залиште заявку — ми зв'яжемося, надішлемо актуальний прайс і зафіксуємо дату.</p>
-          <div class="booking__links">
-            <a class="pill" href="tel:+380635707657">📞 063 570 76 57</a>
-            <a class="pill" href="viber://chat?number=%2B380635707657">💜 Viber</a>
-            <a class="pill" href="https://www.instagram.com/funnybunny_niko/" target="_blank" rel="noopener">📸 Instagram</a>
-          </div>
+    <!-- Бронювання -->
+    <section class="section section--dark" id="booking">
+      <div class="wrap booking">
+        <div class="booking__intro">
+          <p class="eyebrow eyebrow--light">Бронювання</p>
+          <h2>Оберіть дату <em>свята</em></h2>
+          <p class="section__text">Залиште заявку — ми зв'яжемося, надішлемо актуальний прайс і зафіксуємо дату.</p>
+          <ul class="booking__contacts">
+            <li><span>Телефон</span><a href="tel:+380635707657">063 570 76 57</a></li>
+            <li><span>Viber</span><a href="viber://chat?number=%2B380635707657">Написати у Viber</a></li>
+            <li><span>Instagram</span><a href="https://www.instagram.com/funnybunny_niko/" target="_blank" rel="noopener">@funnybunny_niko</a></li>
+          </ul>
         </div>
 
-        <form class="form reveal" data-form novalidate>
-          <div class="field">
-            <label for="f-name">Ваше ім'я</label>
-            <input id="f-name" name="name" autocomplete="name" required placeholder="Олена">
-          </div>
-          <div class="field">
-            <label for="f-phone">Телефон</label>
-            <input id="f-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" required placeholder="+380">
+        <form class="form" data-form novalidate>
+          <div class="form__row">
+            <div class="field">
+              <label for="f-name">Ім'я</label>
+              <input id="f-name" name="name" autocomplete="name" required>
+            </div>
+            <div class="field">
+              <label for="f-phone">Телефон</label>
+              <input id="f-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" required placeholder="+380">
+            </div>
           </div>
           <div class="form__row">
             <div class="field">
-              <label for="f-date">Дата свята</label>
+              <label for="f-date">Дата</label>
               <input id="f-date" name="date" type="date" required>
             </div>
             <div class="field">
               <label for="f-age">Вік дитини</label>
-              <input id="f-age" name="age" type="number" min="1" max="17" inputmode="numeric" placeholder="6">
+              <input id="f-age" name="age" type="number" min="1" max="17" inputmode="numeric">
+            </div>
+          </div>
+          <div class="form__row">
+            <div class="field">
+              <label for="f-guests">Кількість дітей</label>
+              <input id="f-guests" name="guests" type="number" min="1" max="60" inputmode="numeric">
+            </div>
+            <div class="field">
+              <label for="f-place">Формат</label>
+              <select id="f-place" name="place">
+                <option>У лофті</option>
+                <option>Виїзд аніматорів</option>
+              </select>
             </div>
           </div>
           <div class="field">
-            <label for="f-guests">Скільки буде дітей: <output data-guests-out>10</output></label>
-            <input id="f-guests" name="guests" type="range" min="3" max="30" value="10" data-guests>
-          </div>
-          <div class="field">
-            <label for="f-program">Сценарій або програма</label>
+            <label for="f-program">Сценарій</label>
             <select id="f-program" name="program" data-program-select>
               <option value="">Допоможіть обрати</option>
-              <optgroup label="Новий рік">
-                <option>Новорічні пригоди ельфів</option>
-                <option>Як Грінч викрав оленят</option>
-                <option>Шоколадна фабрика Санти</option>
-                <option>Інтерактивна вистава</option>
-                <option>Санта та Ельф 31 грудня</option>
-                <option>Новорічне кібер-шоу</option>
-              </optgroup>
-              <optgroup label="Сценарії">
-                <option>Стіч</option><option>Феї</option><option>Маріо</option><option>Мауі</option>
-                <option>Майнкрафт</option><option>Зоотрополіс</option><option>Стімпанк</option><option>Дивні дива</option>
-                <option>Мінімаус</option><option>Ельза та Олаф</option><option>Піжамна вечірка</option><option>Мафія</option>
-              </optgroup>
+              <option>Новорічна програма</option>
+              <option>Стіч</option><option>Феї</option><option>Маріо</option><option>Мауі</option>
+              <option>Майнкрафт</option><option>Зоотрополіс</option><option>Ельза та Олаф</option><option>Мінімаус</option>
+              <option>Стімпанк</option><option>Дивні дива</option><option>Піжамна вечірка</option><option>Мафія</option>
             </select>
           </div>
-          <div class="field">
-            <span class="label">Де святкуємо</span>
-            <div class="toggle" role="radiogroup">
-              <label><input type="radio" name="place" value="У лофті Funny Bunny" checked><span>У лофті</span></label>
-              <label><input type="radio" name="place" value="Виїзд аніматорів"><span>Виїзд до вас</span></label>
-            </div>
-          </div>
-          <button class="btn btn--pink btn--lg btn--block" type="submit">Надіслати заявку</button>
-          <p class="form__note">Заявка скопіюється, і відкриється Telegram — просто вставте й надішліть.</p>
+          <button class="btn btn--light btn--block" type="submit">Надіслати заявку</button>
+          <p class="form__note">Після натискання текст заявки скопіюється й відкриється Telegram — залишиться лише надіслати.</p>
         </form>
       </div>
     </section>
 
-    <!-- КОНТАКТИ -->
+    <!-- Контакти -->
     <section class="section" id="contacts">
       <div class="wrap contacts">
-        <div class="contacts__info reveal">
-          <p class="kicker"><span class="dot"></span> Контакти</p>
-          <h2>Чекаємо в гості!</h2>
-          <ul class="contacts__list">
-            <li><span>📍</span><div><small>Адреса</small><b>Миколаїв, вул. Сінна, 23</b></div></li>
-            <li><span>📞</span><div><small>Телефон / Viber</small><a href="tel:+380635707657">+380 63 570 76 57</a></div></li>
-            <li><span>🏡</span><div><small>Лофт</small><a href="https://www.instagram.com/funnybunny_niko/" target="_blank" rel="noopener">@funnybunny_niko</a></div></li>
-            <li><span>🎈</span><div><small>Студія свят</small><a href="https://www.instagram.com/prazdnik_kajdiy_den/" target="_blank" rel="noopener">@prazdnik_kajdiy_den</a></div></li>
-          </ul>
+        <div>
+          <p class="eyebrow">Контакти</p>
+          <h2>Чекаємо <em>в гості</em></h2>
+          <dl class="contacts__list">
+            <div><dt>Адреса</dt><dd>Миколаїв, вул. Сінна, 23</dd></div>
+            <div><dt>Телефон, Viber</dt><dd><a href="tel:+380635707657">+380 63 570 76 57</a></dd></div>
+            <div><dt>Лофт</dt><dd><a href="https://www.instagram.com/funnybunny_niko/" target="_blank" rel="noopener">@funnybunny_niko</a></dd></div>
+            <div><dt>Студія свят</dt><dd><a href="https://www.instagram.com/prazdnik_kajdiy_den/" target="_blank" rel="noopener">@prazdnik_kajdiy_den</a></dd></div>
+          </dl>
         </div>
-        <div class="map reveal">
+        <div class="map">
           <iframe title="Funny Bunny на мапі" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
             src="https://maps.google.com/maps?q=%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D1%97%D0%B2%2C%20%D0%A1%D1%96%D0%BD%D0%BD%D0%B0%2023&z=16&output=embed"></iframe>
         </div>
@@ -419,17 +373,14 @@
   </main>
 
   <footer class="footer">
-    <svg class="wave wave--top wave--navy"><use href="#wave"/></svg>
     <div class="wrap footer__inner">
-      <div class="footer__brand">
-        <svg class="footer__mark"><use href="#bunny-line"/></svg>
-        <p><b>FUNNY BUNNY</b><span>дитячий лофт · Свято кожен день</span></p>
-      </div>
-      <p class="footer__copy">© <span data-year>2026</span> Funny Bunny, Миколаїв. Творимо дива разом!</p>
+      <a class="logo" href="#top"><svg class="logo__mark" stroke-width="2.4"><use href="#bunny"/></svg><span class="logo__name">Funny Bunny</span></a>
+      <p>Дитячий лофт · Миколаїв, вул. Сінна, 23</p>
+      <p>© <span data-year>2026</span></p>
     </div>
   </footer>
 
-  <a class="btn btn--pink fab" href="#booking" data-fab>Забронювати казку</a>
+  <a class="btn btn--primary fab" href="#booking" data-fab>Забронювати дату</a>
   <div class="toast" role="status" aria-live="polite" data-toast></div>
 
   <script src="main.js" defer></script>
